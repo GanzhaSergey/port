@@ -43,8 +43,8 @@ $(function() {
   function tabs__work(a,b) {
     $('.tabs__block-items').css("display", "none");
     $('.tabs-item').css("background", "#d9e2f3");
-    $(a).css({"display": "flex","opacity":"0.1"}).animate({opacity:1},1500);
-    $(b).css({"background":"#8eaadb", "opacity":"0.1"}).animate({opacity:1},1000);  }
+    $(a).css({"display": "flex","opacity":"0.3"}).animate({opacity:1},2000);
+    $(b).css({"background":"#8eaadb", "opacity":"0.3"}).animate({opacity:1},1800);  }
 
   function all_click() {tabs__work('.tabs__block-items', '#tab_1'); }
   function lending_click() {tabs__work('.lending', '#tab_2');}
