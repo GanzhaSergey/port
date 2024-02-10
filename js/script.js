@@ -48,8 +48,8 @@ $(function() {
 
   function all_click() {tabs__work('.tabs__block-items', '#tab_1'); }
   function lending_click() {tabs__work('.lending', '#tab_2');}
-  function store_click() {tabs__work('.store', '#tab_3');}
-  function jsproj_click() {tabs__work('.jsProject', '#tab_4');}
+  function jsproj_click() {tabs__work('.jsProject', '#tab_3');}
+  function cms_click() {tabs__work('.cms_click', '#tab_4');}
 
 
 
