@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="password.png" type="image/x-icon">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <h1 class="main">Password generator</h1>
+
+            <div class="select">
+                <div class="left">
+                    <div class="checkbox">
+                        <input id="input_numbers" type="checkbox" checked>
+                        <label for="input_numbers">numbers</label>
+                    </div>
+                    <div class="checkbox">
+                        <input id="input_lower_case" type="checkbox" checked>
+                        <label for="input_lower_case">lower case</label>
+                    </div>
+                    <div class="checkbox">
+                        <input id="input_upper_case" type="checkbox">
+                        <label for="input_upper_case">upper case</label>
+                    </div>
+                    <div class="checkbox">
+                        <input id="input_special_characters" type="checkbox">
+                        <label for="input_special_characters">special characters</label>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="form-group">
+                            <label for="input_range">password length (<span id="length">6</span>) </label>
+                            <input id="input_range" class="form-control" type="range" value="6" min="1" max="20">
+                    </div>
+                    <div class="form-group">
+                            <label for="input_quantity">passwords quantity (<span id="length_quantity">6</span>)</label>
+                            <input id="input_quantity" class="form-control" type="range" value="6" min="1" max="20">
+                    </div>    
+                    <div id="btn">generate</div>
+            </div>
+            </div>
+            <div id="outTitle"></div>
+            <div id="out"></div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

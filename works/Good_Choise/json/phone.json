@@ -1,0 +1,19 @@
+{
+	"221": {
+		"name": "Samsung Galaxy A5 2017 Duos SM-A520 Black",
+		"img": "goods_img/phone/Samsung Galaxy A5 2017/samsung_sm_a520.jpg",
+		"img_2": "goods_img/phone/Samsung Galaxy A5 2017/samsung_sm_a520.jpg_2",
+		"price" : "5999",
+		"description" : "Экран (5.2, Super AMOLED, 1920x1080), Samsung Exynos 7880 (1.9 ГГц), основная камера: 16 Мп, фронтальная камера: 16 Мп/ RAM 3 ГБ/ 32 ГБ встроенной памяти + microSD/SDHC (до 256 ГБ)/ 3G/ LTE/ GPS/ ГЛОНАСС/ поддержка 2х SIM-карт (Nano-SIM)/ Android 6.0 (Marshmallow)/ 3000 мА*ч"
+	},
+
+	"222": {
+		"name": "Ноутбук Asus VivoBook 15 X542UF-DM395",
+		"img": "goods_img/laptop/Asus_VivoBook_15_X542UF/asus_vivobook_15_x542uf_dm3950.jpg",
+		"img_2": "goods_img/laptop/Asus_VivoBook_15_X542UF/asus_vivobook_15_x542uf_dm395_2.jpg",
+		"price" : "18888",
+		"description" : "Экран 15.6 (1920x1080) Full HD, матовый, Intel Core i5-8250U (1.6 - 3.4 ГГц), RAM 8 ГБ, SSD 256 ГБ, nVidia GeForce MX130, 2 ГБ, без ОД, LAN, Wi-Fi, Bluetooth 4.1, веб-камера, Endless OS, 2.3 кг, золотистый"
+
+	}
+
+}

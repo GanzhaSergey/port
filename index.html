@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/title_img.png" type="image/x-icon">
+    <title>Portfolio Ganzha_Sergey</title>
+
+<!-- author -->
+    <meta name="Author" content="Front-end Developer Ganzha Sergey">
+    <meta name="Address" content="fahrerserg@gmail.com">
+<!-- SEO -->
+    <meta name="description" content="portfolio site Front-end Developer Ganzha Sergey. HTML, Css, JavaScript, Php">
+    <meta name="keywords" content="portfolio site, Ganzha Sergey, portfolio site Ganzha Sergey">
+   
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Code+Pro" rel="stylesheet"> 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/arcticmodal/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <img src="img/1.jpg" alt="logo">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="#About_Me" class="header__link scrollto">about</a></li>
+                            <li><a href="#portfolio" class="header__link scrollto">portfolio</a>
+                                <!-- <ul class="header__submenu">
+                                    <li class="header__submenu-link"><a href="">lending</a></li>
+                                    <li class="header__submenu-link"><a href="">store</a></li>
+                                    <li class="header__submenu-link">js projects</li>
+                                </ul> -->
+                            </li>
+                            <li><a href="#contacts" class="header__link scrollto">contacts</a></li>
+                            <li><a href="https://www.linkedin.com/in/sergii-ganzha-59a876162" target="_blank" class="header__link scrollto"><img style="width: 30px; height: 30px;" src="img/linkin.png" alt="img/linkin.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- test picture -->
+        <div class="mainPage">
+            <div class="mainPage__title"><h1>#SergPortfolio</h1></div>
+            <a href="#About_Me" class="header__link scrollto">
+                <div class="mouse"></div>
+            </a>
+        </div>
+
+<div class="container">
+<!-- About_Me -->
+    <section style="line-height: 3;" id="About_Me">
+        <h2 style="margin-top: -60px;">Ganzha Sergiy</h2>
+            <p><span class="title__color">City: </span>Kiev</p>
+            <p><span class="title__color">Education: </span>University: National Technical University, Informatics and Computer Hardware, Flexible Computer-aided system and Robotics</p>
+            <p><span class="title__color">Professional skills: </span>Html5 & Css3, Sass, JavaScript, jQuery, Wordpress, Bootstrap, React</p>
+            <div class="skills-img">
+                <img src="img/skills/html-5.png" alt="html-5">
+                <img src="img/skills/css.png" alt="css">
+                <img src="img/skills/sass.png" alt="sass">
+                <img src="img/skills/javascript.png" alt="javascript">
+                <img src="img/skills/wordpress.png" alt="wordpress">
+                <img src="img/skills/bootstrap.png" alt="bootstrap">
+                <img src="img/skills/react.png" alt="react">
+            </div>
+            <p><span class="title__color">Languages: </span> Ukrainian,English - average, at the level of the technical documentation.</p>
+
+                            <div class="service__content-tab">
+                            <div class="service__content-tabTitle">
+                                <div class="service__content-tabTitleImg">
+                                    <img src="./img/EQUALIZER.png" alt="PICTURE">
+                                </div>
+                                <div class="service__content-tabTitleText">Skills</div>
+                            </div>
+
+                            <div class="service__content-tabText">
+                                <div class="skills html_css">HTML/CSS 90%</div>
+                                <div class="skills wp">WP 70%</div>
+                                <div class="skills js">JS 80%</div>
+                                <div class="skills sass">Less 60%</div>
+                                <div class="skills vue">React 40%</div>
+                            </div>
+                </div>      
+        </section>
+
+        <!--Portfolio-->
+        <section id="portfolio">
+            <h2>portfolio</h2>
+                <nav class="tabs-items">
+                    <div id="tab_1" class="tabs-item" onclick="all_click()">All works</div>
+                    <div id="tab_2" class="tabs-item" onclick="lending_click()">Leanding</div>
+                    <div id="tab_4" class="tabs-item" onclick="jsproj_click()">JS projets</div>
+                </nav>
+            <div class="tabs__block">    
+
+                <div class="tabs__block-items lending" onclick="window.open('works/neutronmail/index.html', '_blank').focus();">
+                    <div class="tabs__block-items__item">
+                        <img src="img/works/neutronMail.jpg" alt="neutronMail">
+                        <div>Neutronmail</div>
+                    </div>
+                </div>
+
+                <div class="tabs__block-items jsProject" onclick="window.open('works/to_do_list/index.html', '_blank').focus();">
+                    <div class="tabs__block-items__item">
+                        <img src="img/works/currentTasks.jpg" alt="currentTasks">
+                        <div>To-do List</div>
+                    </div>
+                </div>
+
+                <div class="tabs__block-items jsProject" onclick="window.open('works/clock/index.html', '_blank').focus();">
+                    <div class="tabs__block-items__item">
+                        <img src="img/works/clock.jpg" alt="time">
+                        <div>Clock widget</div>
+                    </div>
+                </div>
+
+                <div class="tabs__block-items jsProject" onclick="window.open('works/weather/index.html', '_blank').focus();">
+                    <div class="tabs__block-items__item">
+                        <img src="img/works/weather.jpg" alt="weather">
+                        <div>Weather widget</div>
+                    </div>
+                </div>
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/pomadoro/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/pomadoro.jpg" alt="tomato">
+                                <div>Pomadoro timer</div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/calc/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/calc.jpg" alt="calc">
+                                <div>Calculator</div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__block-items lending" onclick="window.open('works/mogo/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/mogo.jpg" alt="mogo">
+                                <div>Lending Mogo</div>
+                            </div>
+                        </div>
+
+                        <div class="tabs__block-items lending" onclick="window.open('works/lemon/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/lemon.jpg" alt="lemon">
+                                <div>Lending Lemon</div>
+                            </div>
+                        </div>
+                        
+                        <div class="tabs__block-items lending" onclick="window.open('works/webDevelop/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/webDev.jpg" alt="webDev">
+                                <div>Lending WebDev</div>
+                            </div>
+                        </div>
+    
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/array/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/array.jpg" alt="array">
+                                <div>Random Array</div>       
+                            </div>
+                        </div>
+                                       
+                        <div class="tabs__block-items lending" onclick="window.open('works/Lian/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/lian.jpg" alt="lian">
+                                <div>Lending Lian</div>        
+                            </div>
+                        </div>
+
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/passgenerate/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/passwordgen.jpg" alt="passwordgen">
+                                <div>Pasw.generator</div>
+                            </div>
+                        </div>
+            
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/snake/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/snake.jpg" alt="snake">
+                                 <div>Game Snake</div>    
+                            </div>
+                        </div>
+            
+                        <div class="tabs__block-items lending" onclick="window.open('works/minimo/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/minimo.jpg" alt="minimo">
+                                <div>Lending Minino</div>        
+                            </div>
+                        </div>
+          
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/kpi_slider/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/slider.jpg" alt="slider">
+                                <div>JS Slider</div>        
+                            </div>
+                        </div>  
+    
+                        <div class="tabs__block-items lending" onclick="window.open('works/BOUNCY/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/bouncy.jpg" alt="bouncy">
+                                <div>Lending BOUNCY</div>        
+                            </div>
+                        </div>
+    
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/keyboard/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/virtkeyboard.jpg" alt="virtkeyboard">
+                                <div>Virtual keyboard</div>        
+                            </div>
+                        </div>
+    
+                        <div class="tabs__block-items jsProject" onclick="window.open('works/lpgcalc/index.html', '_blank').focus();">
+                            <div class="tabs__block-items__item">
+                                <img src="img/works/calcLpg.jpg" alt="calcLpg">
+                                <div>LPG calculator</div>        
+                            </div>
+                        </div>  
+
+            </div>
+                       
+        </section>
+        <!--Contacts-->
+        <section id="contacts" class="contact">
+        <h2>contacts</h2>
+            <div class="contact__text">
+                <p><i class="fas fa-battery-full"></i> Web: ganzhasergey.github.io/portfolio/</p>
+                <hr>
+                <p><a href="mailto:fahrerserg@gmail.com"><i class="far fa-envelope .clipboard" data-clipboard-target="#foo"></i> Email:</b>  fahrerserg@gmail.com </p></a>
+                <hr>
+                <p><a href="tel:0672791750"><i class="fas fa-mobile-alt"></i> Phone: +380 67 279 1750 </p></a>
+                <hr>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- footer -->
+<footer>
+    <hr>
+    <p>© 2022 Ganzha_Sergey. All rights reserved.</p>
+</footer>
+
+<div class="button_writeAutor"><i class="fas fa-paper-plane"></i></div>
+
+    <!-- modal window -->
+    <div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+            <div class="box-modal_close arcticmodal-close">закрыть</div>
+                    <div class="container">
+                        <div class="modalContacts">
+                            <h4 class="modalContacts__title">Contacts</h4>
+                            <p><i class="fas fa-battery-full"></i> Web: ganzhasergey.github.io/portfolio</p>
+                            <hr>
+                            <p><i class="far fa-envelope .clipboard" data-clipboard-target="#foo"></i> Email:</b>  fahrerserg@gmail.com </p>
+                            <hr>
+                            <p><i class="fas fa-mobile-alt"></i> Phone: +380 67 279 1750 </p>
+                            <hr>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <!-- jquery --> <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- arcticModal -->
+    <script src="js/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+    <!-- arcticModal theme --> <link rel="stylesheet" href="js/arcticmodal/themes/dark.css">
+    <!-- script --> <script src="js/script.js"></script>
+</body>
+</html>

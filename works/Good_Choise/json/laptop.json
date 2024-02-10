@@ -1,0 +1,22 @@
+{
+	"111": {
+		"name": "Ноутбук HP Notebook 15-rb005ur",
+		"img": "goods_img/laptop/HP_15rb005ur.jpg",
+		"img_2": "goods_img/laptop/HP_15rb005ur_2.jpg",
+		"img_3": "goods_img/laptop/HP_15rb005ur_3.jpg",
+
+		"price" : "6999",
+		"description" : "Экран 15.6 (1366x768) HD, глянцевый с антибликовым покрытием ,AMD E2-9000e (1.5 - 2.0 ГГц),RAM 4 ГБ,HDD 500 ГБ,AMD Radeon R2,без ОД,LAN, Wi-Fi, Bluetooth, веб-камера, DOS, 2.1 кг, черный"
+	},
+
+	"112": {
+		"name": "Ноутбук Asus VivoBook 15 X542UF-DM395",
+		"img": "goods_img/laptop/Asus_VivoBook_15_X542UF/asus_vivobook_15_x542uf_dm3950.jpg",
+		"img_2": "goods_img/laptop/Asus_VivoBook_15_X542UF/asus_vivobook_15_x542uf_dm395_2.jpg",
+		"img_3": "goods_img/laptop/Asus_VivoBook_15_X542UF/asus_vivobook_15_x542uf_dm395_3.jpg",
+		"price" : "18888",
+		"description" : "Экран 15.6 (1920x1080) Full HD, матовый, Intel Core i5-8250U (1.6 - 3.4 ГГц), RAM 8 ГБ, SSD 256 ГБ, nVidia GeForce MX130, 2 ГБ, без ОД, LAN, Wi-Fi, Bluetooth 4.1, веб-камера, Endless OS, 2.3 кг, золотистый"
+
+	}
+
+}

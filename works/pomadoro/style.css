@@ -1,0 +1,46 @@
+body {
+    background-color: #da524f;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 560px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+.tomatoBody {
+    padding-top: 10%;
+ }
+
+#start {
+    cursor: pointer;
+    font-size: 32px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    background: white;
+    color: #da524f;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #da524f;;
+    transition: 1s;
+}
+    #start:hover {
+        background: #da524f;
+        color: white;
+    }
+
+.logo {
+    margin-top: 80px;
+    margin-bottom: 65px;
+    }
+#timer {
+    font-size: 72px;
+    margin-bottom: 60px;
+}
+
+#work_period, #rest_period {
+    font-size: 26px;
+    text-align: right;
+    margin-right: 50px;
+}

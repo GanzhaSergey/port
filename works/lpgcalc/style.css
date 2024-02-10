@@ -1,0 +1,129 @@
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.Info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid rgb(199, 197, 197);
+}
+
+.Info__text { display: flex; }
+.Info__logo { padding: 15px; }
+    .Info__logo img {
+        width: 64px;
+        height: 64px;
+    }
+
+.Info__title {
+    color: #173152;
+    padding-left: 45px;
+    line-height: 100px;
+    font-size: 22px;
+}
+
+.Info__data {
+    margin-right: 30px;
+    display: flex;
+}
+
+.Info__img {
+    color: #aaabac;
+    line-height: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+.Info__input {
+    line-height: 80px;
+    position: relative;
+}
+
+.Info__input-item {
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(154, 180, 250);
+
+}
+
+.Info__input-item:hover {
+    border-bottom: 3px solid rgb(77, 124, 253);
+}
+
+.Info__input-itemDown1 {
+    color: #aaabac;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+}
+
+.Info__input-itemDown2 {
+    color: #aaabac;
+    position: absolute;
+    right: 0px;
+    top: 22px;
+}
+
+#res {
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-weight: 900;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(77, 124, 253);
+}
+    
+#res:hover {
+    opacity: 0.5;
+}
+
+.result {
+    color: #606161;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1040px){
+    .container {
+        max-width: 840px;
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Info__title {
+        display: none;
+    }
+}
+
+@media (max-width: 860px){
+    .container {
+        max-width: 720px;
+    }
+    .Info__logo {
+        display: none;
+    }
+}

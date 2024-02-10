@@ -1,0 +1,344 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+ }
+body { 
+    background-color: #eaeaea;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ul, li { list-style: none; }
+a { text-decoration: none; }
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+ /* fonts */
+.playfair { font-family: 'Playfair Display', serif; }
+.josefin-light { font-family: 'Josefin Sans', sans-serif; }
+.open-sans { font-family: 'Open Sans', sans-serif;}
+
+.mainLogo {
+    display: block;
+    width: 275px;
+    height: 115px;
+    margin: 40px auto 55px auto;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    box-shadow: 6px 13px 6px 0px rgba(221,221,221,1);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 12px 20px;
+}
+.menu li {position: relative;}
+
+        .menu_logo-img {
+            margin-top: -10px;
+            width: 36px;
+            height: 36px;
+        }
+        .menu_items {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .menu_item {
+            margin: 0px 12px 0px 12px;
+            font-size: 18px;
+            color: #5c5b5b;
+            text-decoration: none;
+            transition: 1s;
+        }
+            .menu_item:hover { color: black; }
+            .menu_item:after {
+                background-color: rgb(5, 22, 128);
+                display: block;
+                content: "";
+                height: 2px;
+                width: 0%;
+                transition: width .7s ease-in-out;    
+        }
+        .menu_item:hover:after,
+        .menu_item:focus:after { width: 100%; }
+        .menu_find a {
+            color: #5c5b5b;
+        }
+
+            .menu_item-submenu {
+                display: none;
+                position: absolute;
+                left: -30px;
+                top: 35px;
+                padding: 15px;
+                background-color: #fcfcfc;
+                opacity: 0.8;
+
+            }
+                .menu_item-submenu-link {
+                    font-size: 14px;
+                    line-height: 1.8;
+                    color: #b3adad;
+                }
+                .menu_items>li:hover .menu_item-submenu {
+                    display: block; 
+                }  
+            .menu_item-submenu-link:hover {
+                color: #000;
+                }
+
+.bananas {
+    margin: 50px 0 50px 0;
+    background-image: url("../lemon/img/banas_backg.png"); 
+    height: 438px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% cover; 
+}
+
+.bananas__title,.bananas__text { margin-left: 60px; }
+
+.bananas__logo {
+    height: 100px;
+    margin: 50px 0 50px 60px;
+}
+.bananas__title {
+    margin-top: 30px;
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    color: #921026;
+}
+.bananas__text { 
+    max-width: 350px;
+    font-size: 16px; 
+}
+.salats {
+    padding: 30px 0px;
+    color: #666666;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    .salats__Item-title { 
+        cursor: pointer;
+        font-size: 18px; }
+    .salats__Item-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+.bananas2 {
+    margin: 50px 0 50px 0;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.bananas2__photo {
+    background-image: url("../lemon/img/Photo2.png"); 
+    width: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.bananas2__text {
+    padding: 20px 30px 20px 30px;
+    background: #ffffff;
+}
+.bananas2__title {
+    color: #055555;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.bananas2__smalltext {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+.bananas2__recipe { 
+    margin-top: 30px;
+    max-width: 490px;    
+    color: #3f3f3f; 
+}
+.smalltext__part1 { padding-top: 10px; }
+.smalltext__button {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9b9a9a;
+    padding: 9px 14px;
+    border: 1px solid #8a8a8a;
+    border-radius: 4px;
+    transition: 1s;
+}
+    .smalltext__button:hover { 
+        background: #a8a7a7;
+        color: azure; 
+    }
+.indent { margin-right: 3px; }
+.footer {
+    background: #2f2f2f;
+    margin: 50px 0 50px 0;
+    padding: 50px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fefefe;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__menuItems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__menuItem a {
+    color: #fefefe;
+    opacity: 0.6; 
+    margin: 0 7px 0 7px;
+    transition: 0.8s;
+}
+    .footer__menuItem a:hover { opacity: 1;  }
+
+.footer__right { opacity: 0.7; }
+.footer__right-icons {
+    padding-top: 12px;
+    font-size: 16px;
+    float: right;
+}
+
+/* popup window */
+    .popup {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.7);
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.8s ease 0s;
+    }
+        .popup.open {
+            opacity: 1;
+            visibility: visible;
+        }
+    .popup__body{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url("../lemon/img/img404.png"); 
+        height: 540px; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: 100% cover; 
+    }
+    .popup__content {
+        color: #000;
+        width: 480px;
+        height: 480px;
+    }
+        .popup__title {
+            display: flex;
+            justify-content: space-between;
+            font-family: JosefinSans;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+        .popup__title-close {
+            cursor: pointer;
+            color: #a9a9a9;  
+            transition: 0.8s;
+        }
+        .popup__title-close:hover {
+            color: #555;  
+        }
+        .popup_line {
+            height: 2px;
+            margin: 11px 0 150px;
+            opacity: 0.2;
+            background-color: #555;
+        }
+            .popup__item-textSorry {
+                padding-left: 10px;
+                font-family: JosefinSans;
+                font-size: 34px;
+                font-weight: bold;
+                letter-spacing: 0.85px;
+                text-align: left;
+                color: #000;
+                text-align: center;
+            }
+            .popup__item-text {
+                    padding-left: 10px;
+                    width: 130px;
+                    height: 32px;
+                    margin: 13px auto 165px auto; 
+                    font-family: PlayfairDisplay;
+                    font-size: 16px;
+                    font-weight: 900;
+                    letter-spacing: 0.4px;
+                    text-align: center;
+                    color: #a9a9a9;
+            }
+            .popup__close { 
+                cursor: pointer;
+                text-align: center; 
+            }
+            .popup__closeSpan {
+                font-size: 14px;
+                padding: 9px 36px;
+                border: 1px solid #a9a9a9;
+                text-transform: uppercase;
+                color:#a9a9a9;
+                transition: 0.8s;
+            }
+                .popup__closeSpan:hover {
+                    background: #e7e6e6;
+                    color:black;
+                }
+
+
+
+/* media */
+@media screen and (max-width: 1023px) {
+   .container { max-width: 905px; }
+    .bananas2__title { font-size: 26px; }
+    .bananas2__recipe {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .footer__menu { display: none; }
+}
+
+@media screen and (max-width: 900px) {
+    .container { max-width:700px; }
+    .menu_logo {display: none;}
+    .bananas__logo { height: 80px; }
+    .bananas__title { font-size: 18px; }
+    .bananas2__title { font-size: 20px; }
+    .salat__title { font-size: 14px; } 
+    .menu_item {font-size: 14px;}
+    .bananas2__photo {display: none;}
+}
+
+
+@media screen and (max-width: 700px) {
+    .container { max-width: 450px; }
+    .bananas2__title { font-size: 18px; }
+    .menu_items {flex-direction: column;}
+    .footer__right {font-size: 12px;}
+    /* .bananas__logo {display: none;} */
+    .bananas {
+        background-image: none;
+        background-color: #fff;
+    }
+}

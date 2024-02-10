@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/gas-station.png" type="image/x-icon">
+    <title>LPG calcutator</title>
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/4d58e6ab31.js"></script>
+      <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор вигоди використання ГБО</h1>
+        <div class="Info">
+            <div class="Info__text">
+                <div class="Info__logo"><img src="img/electric-car.png" alt="">
+                    <!-- <i class="fas fa-car"></i> -->
+                </div>
+                <div class="Info__title">Ваш автомобіль</div>
+            </div>
+        
+            <div class="Info__data">
+                <div class="Info__img">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <div class="Info__input">
+                    <input id="benzcon" class="Info__input-item" type="number" min="2" max="60">
+                    <span class="Info__input-itemDown1 inp1">Витрати бензина</span>
+                    <span class="Info__input-itemDown2 inp11">л/100км</span>
+                </div>
+                <div class="Info__img">
+                    <i class="far fa-compass"></i>
+                </div>
+                <div class="Info__input">
+                    <input id="mouthRun" class="Info__input-item" type="number" min="100" max="50000">
+                    <span class="Info__input-itemDown1 inp2">Пробіг в месяць</span>
+                    <span class="Info__input-itemDown2 inp22">км</span>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="Info">
+            <div class="Info__text">
+                <div class="Info__logo"><img src="img/piggy-bank.png" alt=""></div>
+                <div class="Info__title">Ціна пального</div>
+            </div>
+
+            <div class="Info__data">
+                <div class="Info__img">
+                        <i class="fas fa-gas-pump"></i>
+                </div>
+                <div class="Info__input">
+                    <input id="benzPrice" class="Info__input-item" type="number" min="20" max="50" step="0.1">
+                    <span class="Info__input-itemDown1 inp3">Бензин</span>
+                    <span class="Info__input-itemDown2 inp33" >грн/л</span>
+                </div>
+                <div class="Info__img">
+                        <i class="fas fa-burn"></i>
+                </div>
+    
+                <div class="Info__input">
+                        <input id="gasPrice" class="Info__input-item" type="number" min="5" max="25" step="0.1"> 
+                        <span class="Info__input-itemDown1 inp4">Газ</span>
+                        <span class="Info__input-itemDown2 inp44">грн/л</span>
+                    </div>
+            </div>
+        </div>
+
+        <div id="res">Результат</div>
+
+        <div class="result" id="pricebenz"></div>
+        <div class="result" id="pricegas"></div>
+        <div class="result" id="econ"></div>
+        <div class="result" id="econMounthBenz"></div>
+        <div class="result" id="econMounthGas"></div>
+        <div class="result" id="econMounth"></div>
+        
+    </div>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
