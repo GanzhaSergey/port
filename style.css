@@ -459,7 +459,7 @@ footer { text-align: center; }
         transform: rotate(-45deg);
         bottom: 9px;
     }
-    .header__menu{
+    .header__menu {
         position: fixed;
         top: -110%;
         left: 0;
@@ -486,6 +486,18 @@ footer { text-align: center; }
     .about__content-left { padding-left: 10px; }
     #About_Me { padding-top: 0; }
 
+
+    .tabs__block-items {
+        flex-basis: 285px;
+        height: 232px;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    .tabs__block-items__item img {
+        max-height: 185px;
+        margin-bottom: 10px;  
+    }
     
 }
 
