@@ -412,6 +412,11 @@ footer { text-align: center; }
     .tabs__block {justify-content: space-around !important;}
     .tabs__block-items {flex-basis: 270px;}
     .tabs__items { font-size: 16px; }
+
+    .skills-img img {
+        width: 64px;
+        height: 64px;
+      }
 }
 
 
@@ -498,7 +503,11 @@ footer { text-align: center; }
         max-height: 185px;
         margin-bottom: 10px;  
     }
-    
+
+    .skills-img img {
+        width: 48px;
+        height: 48px;
+      }    
 }
 
 @media (max-width: 480px) {
