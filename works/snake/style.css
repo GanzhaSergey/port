@@ -1,30 +1,33 @@
 * { box-sizing: border-box; }
 
 .container {
-    width: 768px;
+    width: 510px;
     margin: 0 auto;
 }
-/* input {
-    font-size: 30px;
-    display: block;
-    border: none;
-} */
 
+.points_border {
+    margin: 40px auto;
+    width: 350px;
+    height: 150px;
+    font-family: "Kalam", cursive;
+    padding: 15px;
+    border: 1px solid rgb(185, 182, 182);
+}
 
+.points_text {
+    font-size: 42px;
+    text-align: center;
+    margin-top: -48px;
+}
 .max_resault, .last_resault, .point_now {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     border: none;
 }
 
-    .max_resault {
-        color: red;
-        margin-top: 50px;
-    }
-    .last_resault {
-        color:blue;
-    }
+.point_now { font-family: "Kalam", cursive;}
+.max_resault {color: rgb(243, 70, 70); }
 
 .field {
     width: 500px;
@@ -34,7 +37,7 @@
     flex-wrap: wrap;
     background-color: rgb(252, 251, 248);
     border-radius: 6px;
-    box-shadow: 3px -2px 5px 1px rgba(143,137,143,.37);
+    box-shadow: 3px -2px 5px 1px rgba(143, 137, 143, .37);
 }
 
 .excel {
@@ -44,18 +47,17 @@
 }
 
 .snakeBody {
-    background-color:#82c35f;
+    background-color: #82c35f;
     border-radius: 8px;
-} 
+}
 
 .snakeHead {
-    background:url('img/snake.png');
+    background: url('img/snake.png');
     background-size: cover;
     background-position: center;
 }
 
 .mouse {
-    background:url('img/mouse.png');
+    background: url('img/mouse.png');
     background-size: cover;
 }
-

@@ -1,5 +1,5 @@
-document.querySelector('.last_resault').innerHTML = "Last resault: " + localStorage.getItem('last_point');
-document.querySelector('.max_resault').innerHTML = "Max point resault: " + localStorage.getItem('max_point');
+document.querySelector('.last_resault').innerHTML = "Last: " + localStorage.getItem('last_point');
+document.querySelector('.max_resault').innerHTML = "Max: " + localStorage.getItem('max_point');
 
 let field = document.createElement('div');
 document.body.appendChild(field);
@@ -70,7 +70,7 @@ let steps = false;
 let input = document.querySelector('.point_now');
 // document.body.appendChild(input);
 let score = 0;
-input.value = 'Now points: ' + score;
+input.value = 'Now: ' + score;
 
 function move() {
     let snakeCoordinates = [snakeBody[0].getAttribute('posX'), snakeBody[0].getAttribute('posY')];
@@ -132,7 +132,6 @@ function move() {
     steps = true;
 }
 
-    
 let interval = setInterval(move, 400);
 
 window.addEventListener('keydown', function (e) {
